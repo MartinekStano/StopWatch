@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="STOPWATCH.MainPage"
+             BackgroundColor="Gray">
+             
+
+    <StackLayout>
+
+        <Label
+            x:Name="lblStopWatch"
+            HorizontalOptions="CenterAndExpand"
+            VerticalOptions="CenterAndExpand"
+            FontSize="30"
+            TextColor="Yellow"
+            BackgroundColor="Black">
+        </Label>
+
+        <Button
+                x:Name="buttonStart"
+                Clicked="buttonStart_Clicked"
+                Text="Start"
+                TextColor="Yellow"
+                BackgroundColor="Black">
+        </Button>
+
+        <Button
+            x:Name="buttonStop"
+            Clicked="buttonStop_Clicked"
+            Text="Stop"
+            TextColor="Yellow"
+            BackgroundColor="Black">
+        </Button>
+
+        <Button
+            x:Name="buttonReset"
+            Clicked="buttonReset_Clicked"
+            Text="Reset"
+            TextColor="Yellow"
+            BackgroundColor="Black">
+        </Button>
+            
+                
+    </StackLayout>
+
+
+</ContentPage>
